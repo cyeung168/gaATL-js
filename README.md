@@ -1,1 +1,3 @@
-# gaATL-js
+• Notes
+• In class exercises
+• Homework assignments
