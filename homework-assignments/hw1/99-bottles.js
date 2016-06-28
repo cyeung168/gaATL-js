@@ -17,16 +17,16 @@ for (var counter = 99; counter >= 1; counter--) {
 
   console.log("%d %s of beer on the wall, %d %s of beer.", counter, noun, counter, noun);
     
-    if (counter == 1) {
-      console.log("Take one down and pass it around, no more bottles of beer on the wall.");
-      console.log("");
-      console.log("No more bottles of beer on the wall, no more bottles of beer.");
-      console.log("Go to the store, and buy some more 99 bottles of beer on the wall.");
-    } else if (counter > 1 && !(counter > 2)) {
-      console.log("Take one down and pass it around %d bottle of beer on the wall.", bottles);
-    } else {
-      console.log("Take one down and pass it around %d %s of beer on the wall.", bottles, noun);
-    }
-
+  if (counter == 1) {
+    console.log("Take one down and pass it around, no more bottles of beer on the wall.");
     console.log("");
+    console.log("No more bottles of beer on the wall, no more bottles of beer.");
+    console.log("Go to the store, and buy some more 99 bottles of beer on the wall.");
+  } else if (counter > 1 && !(counter > 2)) {
+    console.log("Take one down and pass it around %d bottle of beer on the wall.", bottles);
+  } else {
+    console.log("Take one down and pass it around %d %s of beer on the wall.", bottles, noun);
   }
+
+  console.log("");
+}
