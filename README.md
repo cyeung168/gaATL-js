@@ -1,3 +1,3 @@
-• Notes
-• In class exercises
-• Homework assignments
+* Notes
+* In class exercises
+* Homework assignments
