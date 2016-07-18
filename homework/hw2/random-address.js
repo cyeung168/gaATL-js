@@ -1,24 +1,18 @@
-var streetNumber = [68, 107, 1080, 480]
-var streetName = ["Portland Ave", "Mark Smith Dr", "Peachtree St", "Crescent St"]
-var cityName = ["Redding", "Mandeville", "Atlanta", "Oakland"]
-var stateName = ["CT", "LA", "GA", "CA"]
-var zipCode = [06896, 70471, 30309, 94610]
+var addressArrays = [
+  streetNumber = [68, 107, 1080, 480],
+  streetName = ["Portland Ave", "Mark Smith Dr", "Peachtree St", "Crescent St"],
+  cityName = ["Redding", "Mandeville", "Atlanta", "Oakland"],
+  stateName = ["CT", "LA", "GA", "CA"],
+  zipCode = ["06896", 70471, 30309, 94610],
+];
 
-function randomAddress(array) {
-  for () {
-    array[Math.floor(Math.random)]
-  }
-  array.toString();
-}
+var storeAddressIndices = [];
 
+function randomize(array) {
+  var randomIndex = array[Math.floor(Math.random() * (array.length))];
+  storeAddressIndices.push(randomIndex);
+};
 
-// function randomAddress(array) {
-//   console.log(array[Math.floor(Math.random() * 4)]);
-//   return array[Math.floor(Math.random() * 4)];
-// }
-
-// var number, street, city, state, zip;
-
-// function combine {
-
-}
+addressArrays.forEach(randomize);
+var randomAddress = storeAddressIndices.join(" ");
+console.log(randomAddress);
